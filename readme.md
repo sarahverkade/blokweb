@@ -66,9 +66,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 ![homepage](images/home.png)
-[navigatie-menu](images/menu.png)
-[producten](images/assortiment.png)
-[categorie](images/category.png)
+![navigatie-menu](images/menu.png)
+![producten](images/assortiment.png)
+![categorie](images/category.png)
 
 **Breakdown-schets(en):**
 
