@@ -65,11 +65,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
-[homepage](images/home.png)
+![homepage](images/home.png)
 [navigatie-menu](images/menu.png)
 [producten](images/assortiment.png)
 [categorie](images/category.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-1.jpg) [](images/breakdown-2.jpg) [](images/breakdown-3.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-1.jpg) ![breakdown2-](images/breakdown-2.jpg) ![breakdown3-](images/breakdown-3.jpg)
