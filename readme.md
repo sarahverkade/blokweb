@@ -38,15 +38,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-responsive layout maken zonder mediaqueries vond ik lastig maar gaat steeds beter oefeningen van de afgelopen weken hebben me goed geholpen met het positioneren van elementen. dit ging redelijk goed. -
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![homepage](images/voortgang1.0.jpg)
+![navigatie-menu](images/voortgang1.1.jpg)
+![producten](images/voortgang1.2.jpg)
+![footer](images/voortgang1.3.jpg)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-wil het graag hebben over responsive positioneren-
 
 ### Verslag van meeting
 
