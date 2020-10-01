@@ -53,6 +53,9 @@ Ik begin handig te worden in het gebruiken van de dev tool. Dit maakt het een st
 ![nieuwsbrief](images/voortgang2-home4.jpg)
 ![homepage-responsive](images/voortgang2-home5.jpg)
 ![homepage-responsive](images/voortgang2-home6.jpg)
+![home](images/voortgang2-home7.jpg)
+![home](images/voortgang2-home8.jpg)
+![home](images/voortgang2-home9.jpg)
 
 
 ### Agenda voor meeting
