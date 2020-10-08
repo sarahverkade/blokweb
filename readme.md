@@ -34,6 +34,11 @@ Ik heb dus echt wat hulp nodig om een beslissing te maken en dit wil ik ook vrag
 
 Een ander probleem is dat Daniel Wellington het een en ander heeft aangepast op de website. Gelukkig heb ik een aantal screenshots van de oude layout maar niet van alles. Ik zal dus een combinatie moeten maken van wat ik al heb en wat ze inmiddels hebben aangepast.
 
+**Screenshot(s):**
+
+![mobile-menu](images/voortgang3-1.jpg)
+![home-menu](images/voortgang3-2.jpg)
+
 ### Agenda voor meeting
 
 - vraag over het toevoegen van een hamburger menu met een css animation in semantische html opmaak.
