@@ -24,9 +24,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+Ik heb deze week minder gedaan dan had ik had gewild. Dat heeft voornamelijk te maken met het feit dat ik mijn tijd moest verdelen over deadlines voor anderen vakken.
 
+Ik heb wel de structuur van mijn html aangepast en voor mijn gevoel is dat een stuk schoner en meer semantisch dan voorheen.
+Ik ben begonnen aan het maken van mijn menu voor mobile. Desktop had ik al af maar mobile nog niet. Ik merk dat ik het echt heel erg lastig vind om een keuze te maken in hoe ik het mobile menu wil realiseren. Dit komt omdat ik mijn hamburger menu zo wil maken dat mijn html structuur semantisch blijft. Ik ben aan het twijfelen of ik het hamburger menu moet maken met javascript maar dan loop ik er tegenaan dat het menu niet toegankelijk is als javascript niet runt en, ik waarschijnlijk classes moet toevoegen met javascript. Echter, als ik het mobile menu maak met html en css dan zal ik html elementen moeten toevoegen die puur en alleen worden toegevoegd om in css het hamburger icoontje te maken. Als ik (als op de originele website) svg icons ga toevoegen dan is dit weer niet toegankelijk voor screenreaders.
+Ik heb dus echt wat hulp nodig om een beslissing te maken en dit wil ik ook vragen in het volgende en laatste voortgangsgesprek.
+
+Een ander probleem is dat Daniel Wellington het een en ander heeft aangepast op de website. Gelukkig heb ik een aantal screenshots van de oude layout maar niet van alles. Ik zal dus een combinatie moeten maken van wat ik al heb en wat ze inmiddels hebben aangepast.
+
+### Agenda voor meeting
+
+- vraag over het toevoegen van een hamburger menu met een css animation in semantische html opmaak.
 
 ## Voortgang 2 (week 5)
 
@@ -68,7 +78,7 @@ Ik begin handig te worden in het gebruiken van de dev tool. Dit maakt het een st
 
 ### Verslag van meeting
 
-na afloop snel uitkomsten vastleggen
+Meeting ging goed! Ik heb helder gekregen wat ik precies moet aanpassen aan de structuur van m'n html. Ik ga daar deze week mee aan de slag maar ben bang dat ik er minder tijd in kan steken dat de afgelopen weken omdat ik ook deadlines heb voor andere vakken.
 
 
 ## Voortgang 1 (week 3)
