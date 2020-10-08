@@ -1,16 +1,13 @@
 /* CSS Document */
 
 *,
+*,
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
-/*
-===================================================================
-SOURCE FONTS https://freefontsfamily.com/futura-font-family-free/
-===================================================================
-*/
+/* SOURCE FONTS https://freefontsfamily.com/futura-font-family-free/ */
 
 @font-face {
     font-family: 'futuralight';
@@ -18,40 +15,17 @@ SOURCE FONTS https://freefontsfamily.com/futura-font-family-free/
     font-weight: normal;
     font-style: normal;
 }
-
-/* body op 0 */
-
 body {
     margin: 0;
     padding: 0;
 }
-
-/* voor desktop inladen met mediaquery */
-
-header nav {
-    display: none;
-}
-section:first-of-type img[alt*="header-desktop"] {
-    display: none;
-}
-section:first-of-type img[alt*="header-mobile"] {
-    display: block;
-}
-div:nth-of-type(2) section:nth-of-type(2) article img:last-of-type {
-    display: none;
-}
-
-/* standaard waarde html elements */
-
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
 }
-section:nth-of-type(3) P:nth-of-type(2) {
-    display: none;
-}
+a,
 h1,
 h2,
 h3,
@@ -61,486 +35,170 @@ nav {
     letter-spacing: .2em;
 }
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
-/*
-==========================================
-          HEADER/HEADING
-==========================================
-*/
+/* Header - mobile and tablet */
 
-header {
-    display: block;
-    position: relative;
+
+header h1{
+    font-weight:bolder;
+    text-align: center;
+
+}
+
+header div:first-of-type {
+    background-image: url(../images/imgheader-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
 }
-div:first-of-type {
+header nav {
     position: fixed;
     top: 0;
-    left: 0;
-    height: 4rem;
-    width: 100vw;
     background-color: rgba(249, 252, 247, .4);
-    z-index: 10;
+    width: 100vw;
+    height: 4em;
+    padding-top: 5em;
 }
-header img:first-of-type {
-    position: absolute;
-    top: -6vw;
-    width: calc(7em + 29vw);
-    height: auto;
+header li {
+    font-size: .7em;
+    margin: 1em;
 }
-
-/*
-==========================================
-    SECTION ONTDEK
-==========================================
-    styles home
-*/
-
-section:first-of-type {
-    position: relative;
+header li a {
+    color: black;
 }
-img[alt*="header-mobile"],
-img[alt*="header-desktop"] {
-    border-bottom: 50px solid rgba(244, 244, 244, 1);
-}
-h1 {
-    position: absolute;
-    left: 5%;
-    right: 5%;
-    top: 45%;
-    text-align: center;
-    font-family: futuralight;
-    letter-spacing: .2em;
-    font-size: 150%;
+header ul:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(249, 252, 247, .6);
+    padding: 0;
     margin: 0;
 }
-section:first-of-type p {
-    position: absolute;
-    left: 5%;
-    right: 5%;
-    top: 47%;
-    padding-top: 1.5em;
-    margin: 0;
-    font-family: futuralight;
-    font-size: .8em;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .2em;
-    line-height: 1.5em;
-}
-section:first-of-type p a {
-    position: relative;
-    display: inline-block;
-    left: 0;
-    margin-top: 40px;
+header h2 {
+    margin-top: 5em;
     margin-bottom: 0;
-    padding: .7em 4em;
-    font-family: futuralight;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    text-align: center;
-    color: rgba(0, 8, 28, 1);
-    border: .1em solid black;
-    border-radius: .20em;
+    font-size: 1.5em;
+}
+header p {
+    margin: 0;
+    padding: .5em;
 }
 
-/*
-==========================================
-    SUB-NAVIGATION
-        styles home
-==========================================
-*/
+/* Header - desktop */
 
-section:nth-of-type(2) ul {
+@media (min-width: 960px) {
+    header div:first-of-type {
+        background-image: url(../images/imgheader-desktop.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 40vw;
+    }
+}
+
+/* main - subnav mobile and tablet */
+
+main nav:first-of-type ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     padding: 0;
     margin: 1em 1em 1.5em 1em;
+    text-align: center;
 }
-section:nth-of-type(2) li {
+main nav:first-of-type li {
+    padding: .4em;
     border: .1em solid rgba(0, 8, 28);
     border-radius: .15em;
     background-color: rgba(0, 8, 28, 1);
 }
-section:nth-of-type(2) h3 {
-    font-size: 70%;
-    font-weight: lighter;
-    letter-spacing: .3em;
-    text-align: center;
+main nav:first-of-type a {
+    font-size: .71em;
+    letter-spacing: .25em;
     color: rgba(205, 188, 122, 1);
+    line-height: 2em;
 }
 
-/*
-==========================================
-    SECTION "net binnen"
-        styles homepage & shop-instagram
-==========================================
-*/
+/* main - subnav tablet and desktop */
 
-section:nth-of-type(3),
-.tweedePagina section:nth-of-type(2) {
-    position: relative;
+@media (min-width:568px) {
+    main nav:first-of-type ul {
+        display: flex;
+        justify-content: center;
+    }
+    main nav:first-of-type li {
+        flex: 25%;
+        padding: .8em;
+        max-width: 166px;
+        margin: 10px;
+    }
+    main nav:first-of-type a {
+        font-size: .75em;
+    }
+}
+
+/* main section "net binnen" mobile */
+
+main section:first-of-type div:first-of-type {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0px 0.5rem;
-    margin-top: 20vh;
     font-family: futuralight;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 7px;
 }
-section:nth-of-type(3) h2,
-.tweedePagina section:nth-of-type(2) h2 {
-    position: absolute;
-    top: -14vh;
+main section:first-of-type h2 {
     font-size: calc(1em + .5vw);
-    font-weight: lighter;
+    text-align: center;
 }
-section:nth-of-type(3) article,
-.tweedePagina section:nth-of-type(2) article {
-    flex: 1 1 50%;
+main section:first-of-type div:first-of-type article {
+    flex-basis: 50%;
     padding: .5em;
 }
-section:nth-of-type(3) aside,
-.tweedePagina section:nth-of-type(2) aside {
+main section:first-of-type div:first-of-type ul {
+    margin: 0;
+    padding: 0em 1em;
+}
+main section:first-of-type div:first-of-type li {}
+main section:first-of-type ul p {
     display: inline-block;
-    padding: 1% 2%;
-    font-size: 75%;
+    margin: 0;
+    padding: .1em .2em;
+    font-size: .75em;
     text-transform: uppercase;
     letter-spacing: .3em;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 0, 0, 1);
 }
-section:nth-of-type(3) h3,
-.tweedePagina section:nth-of-type(2) h3 {
-    width: 80%;
-    font-size: 75%;
-    font-weight: lighter;
-}
-section:nth-of-type(3) button:first-of-type,
-.tweedePagina section:nth-of-type(2) button:first-of-type {
-    width: 1vw;
-    height: 1vh;
-    padding: 5%;
-    border: .1em solid rgba(0, 8, 28, 1);
-    border-radius: 50%;
-    background-color: rgba(229, 174, 135, 1);
-}
-section:nth-of-type(3) button:last-of-type,
-.tweedePagina section:nth-of-type(2) button:last-of-type {
-    width: 1vw;
-    height: 1vh;
-    padding: 5%;
-    border: none;
-    border-radius: 50%;
-    background-color: rgba(193, 193, 193, 1);
-}
-section:nth-of-type(3) p::first-letter,
-.tweedePagina section:nth-of-type(2) p::first-letter {
-    text-transform: uppercase;
-}
-section:nth-of-type(3) p {}
-
-/*
-==========================================
-    SECTION LOOKS
-        styles home
-==========================================
-*/
-
-div:nth-of-type(2) {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0;
-}
-div:nth-of-type(2) section {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    padding: 0;
-    max-width: 1140px;
-}
-div:nth-of-type(2) article {
-    position: relative;
-}
-div:nth-of-type(2) h2 {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    margin: 0;
-    padding: 0;
-    font-size: 150%;
-    font-weight: 200;
-    text-align: center;
-}
-div:nth-of-type(2) article:first-of-type h2 {
-    color: rgba(255, 255, 255, 1);
-}
-div:nth-of-type(2) article:nth-of-type(2) h2 {
-    color: rgba(0, 0, 0, 1);
-}
-div:nth-of-type(2) p {
-    position: absolute;
-    top: 25%;
-    left: 4%;
-    padding: .8em;
-    margin: 0;
-    font-family: futuralight;
-    font-size: 80%;
-    font-weight: lighter;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    line-height: 1.5em;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-}
-div:nth-of-type(2) a,
-.tweedePagina div:nth-of-type(2) section a {
-    display: inline-block;
-    font-family: futuralight;
-    font-size: 80%;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    text-align: center;
-}
-div:nth-of-type(2) section:first-of-type a {
-    position: absolute;
-    top: 30%;
-    left: 25%;
-    right: 0;
-    padding: .7em;
-    width: 50%;
-}
-div:nth-of-type(2) section:first-of-type article:first-of-type a {
-    color: rgba(255, 255, 255, 1);
-    border: .1em solid rgba(255, 255, 255, 1);
-    border-radius: .2em;
-}
-div:nth-of-type(2) section:first-of-type article:last-of-type a {
-    color: rgba(0, 0, 0, 1);
-    border: .1em solid rgba(0, 0, 0, 1);
-    border-radius: .2em;
-}
-div:nth-of-type(2) section:last-of-type a {
-    position: absolute;
-    top: 31%;
-    left: 5%;
-    right: 0;
-    margin: 3em 0;
-    max-width: 13rem;
-    padding: 8px 20px;
-    color: rgba(255, 255, 255, 1);
-    border: .1em solid rgba(255, 255, 255, 1);
-    border-radius: .2em;
+main section:first-of-type div:first-of-type h3 {
+    font-size: 0.8em;
+    color: black;
 }
 
-/*
-==========================================
-    SECTION/NEWSLETTER
-        styles homepage & shop-instagram
-==========================================
-*/
+/* main section "net binnen" tablet */
 
-section:nth-of-type(4),
-.tweedePagina section:nth-of-type(3) {
-    position: relative;
-}
-section:nth-of-type(4) p::first-letter,
-.tweedePagina section:nth-of-type(3) p::first-letter {
-    text-transform: uppercase;
-}
-section:nth-of-type(4) p,
-.tweedePagina section:nth-of-type(3) p {
-    font-family: futuralight;
-    font-size: 0.9em;
-    line-height: 1.5em;
-}
-section:nth-of-type(4) p:last-child,
-.tweedePagina section:nth-of-type(3) p:last-child {
-    color: rgba(110, 110, 110, 1);
-}
-section:nth-of-type(4) article,
-.tweedePagina section:nth-of-type(3) article {
-    background: rgba(237, 232, 228, 1);
-    padding: 1em;
-    max-width: 100vw;
-}
-section:nth-of-type(4) fieldset,
-.tweedePagina section:nth-of-type(3) fieldset {
-    border: none;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    font-size: .8em;
-    font-family: futuralight;
-    margin: 0;
-    padding: 0;
-}
-
-/*
-==========================================
-    SECTION/SOCIAL
-        styles homepage & shop-instagram
-==========================================
-*/
-
-section:nth-of-type(5) ul {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(237, 232, 228, 1);
-    padding: 1em;
-    margin: 0;
-}
-section:nth-of-type(5) li {
-    width: 1em;
-    margin: 1em;
-}
-section:nth-of-type(5) ul img {
-    background-color: white;
-}
-
-/*
-============================================
-media query Desktop
-============================================
-*/
-
-@media (min-width: 960px) {
-    header nav {
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 5.2vw;
-    }
-    div:first-of-type {
-        height: 8rem;
-    }
-    header nav ul {
-        position: relative;
-        display: flex;
-        text-align: center;
-        padding: 0;
-        background-color: rgba(249, 252, 247, .6);
-    }
-    header li {
-        flex: 1 1 0;
-    }
-    header h2 {
-        font-family: futuralight;
-        text-transform: uppercase;
-        letter-spacing: .5em;
-        font-size: 62%;
-        line-height: 1em;
-        color: rgba(0, 8, 28, 1);
-    }
-    section:first-of-type img[alt*="header-desktop"] {
-        display: block;
-    }
-    section:first-of-type img[alt*="header-mobile"] {
-        display: none;
-    }
-    nav li h2 {
-        display: block;
-    }
-    section:nth-of-type(3) article {
-        flex: 25%;
-        max-width: 320px;
-    }
-    div:nth-of-type(2) section:nth-of-type(2) article img:last-of-type {
-        display: block;
-    }
-    div:nth-of-type(2) section:nth-of-type(2) article img:first-of-type {
-        display: none;
-    }
-}
-@media (max-width: 950px) {
-    img[alt*="newsletter-home"] {
-        display: none;
-    }
-}
-@media screen and (min-width: 561px) and (max-width: 950px) {
-    section:nth-of-type(4),
-    .tweedePagina section:nth-of-type(3) {
-        background-color: rgba(167, 140, 120, 1);
+@media (min-width:561px) {
+    main section:first-of-type div:first-of-type article {
+        flex-basis: 33%;
     }
 }
 
-/*
-=========================================
-media query Tablet
-=========================================
-*/
+/* main section "net binnen" desktop */
 
-@media (min-width: 561px) {
-    section:nth-of-type(3) article {
-        flex: 33%;
-        max-width: 290px;
+@media (min-width:960px) {
+    main section:first-of-type div:first-of-type article {
+        flex-basis: 25%;
     }
-    section:nth-of-type(2) ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 40px 0 10px;
-    }
-    section:nth-of-type(2) li {
-        flex: 25%;
-        max-width: 166px;
-        min-height: 50px;
-        margin: 10px;
-        padding: 4px;
-    }
-    div:nth-of-type(2) section article {
-        flex: 50%;
-    }
-    div:nth-of-type(2) section img {
-        padding: .4em .5em;
-    }
-    section:nth-of-type(4) {
-        padding: 2em;
-    }
-    section:nth-of-type(4) article {
-        box-shadow: 0em 0em 1.8em 0em rgba(0, 0, 0, .25);
-        margin: 0 auto;
-        max-width: 70rem;
-    }
-}
-
-/*
-==========================================
-     STYLES shop-instagram
-==========================================
-*/
-
-.tweedePagina section:first-of-type {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.tweedePagina h1 {
-    text-align: center;
-    line-height: 1.5em;
-    padding: 2em 2em;
-}
-.tweedePagina section:first-of-type p {
-    text-align: center;
-    line-height: 1.5em;
-    padding: 2em 2em;
-}
-.tweedePagina section:first-of-type div section {
-    flex: 1 1 0;
-    position: relative;
-}
-.tweedePagina section:first-of-type div {
-    display: flex;
-    flex-wrap: wrap;
-}
-.tweedePagina section:first-of-type article {
-    max-width: 1140px;
 }
