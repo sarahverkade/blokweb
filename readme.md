@@ -6,20 +6,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://developer.mozilla.org/
+2. https://semantic-ui.com/
+3. https://www.sitepoint.com/
+4. https://www.w3fools.com/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
 
-**Screenshot(s):**
+## Resultaat so far (week 7/8)
 
--screenshot(s) van je eindresultaat-
+Ik heb de twee pagina's repsonsive maar het is helaas nog niet af. Er moet nog veel gebeuren. Ik moet de micro-interacties nog toevoegen, de button states en de drowndown menulinks in de footer. Ik moet de website ook nog testen en toegankelijk maken voor screenreaders. Heel jammer maar ik heb er gewoon te weinig tijd ingestoken omdat ik die niet vrij kon maken.
 
+Wat ook een beetje lastig was, is dat de originele website veel heeft aangepast. Ik heb er gelukkig nog wel screenshots van maar niet van hoe alles zich responsive gedroeg dus sommige onderdelen op de tweede pagina heb ik moeten improviseren.
+
+Hetgeen wat me de meeste vertraging heeft opgeleverd is het nadenken over een semantische html structuur. Ik denk dat ik de website wel drie keer opnieuw heb gemaakt. C'est la vie. Ik hoop in te halen met de herkansing.
+
+![scherm-opname](images/frontend-screencapture.mov)
 
 
 ## Voortgang 3 (week 6)
@@ -42,6 +47,10 @@ Een ander probleem is dat Daniel Wellington het een en ander heeft aangepast op 
 ### Agenda voor meeting
 
 - vraag over het toevoegen van een hamburger menu met een css animation in semantische html opmaak.
+
+### Verslag van meeting
+
+Ik heb helaas nog niet helemaal duidelijk hoe ik het hamburger menu moet maken. Ik heb verder wel veel uit de meeting gehaald. Ik heb feedback gekregen op m'n html en ik weet nu dat ik minder sections hoef te gebruiken. Ik ga veel van de sections vervangen met figure en articles. Ook vermeed ik het gebruik van divs omdat ik dacht het niet toegestaan was maar het is nu ook duidelijk dat ik die mag gebruiken als het puur om styling gaat dus daar ga ik mee aan de slag.
 
 ## Voortgang 2 (week 5)
 
