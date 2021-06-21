@@ -71,13 +71,20 @@ Ik begin handig te worden in het gebruiken van de dev tool. Dit maakt het een st
 
 **Screenshot(s):**
 
-<img src="https://https://github.com/sarahverkade/blokweb/blob/main/images/voortgang2-home1.jpg" width="400px">
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home1.jpg" width="200px">   <img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home9.jpg" width="200px">   <img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home7.jpg" width="200px">   <img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home5.jpg" width="200px"> 
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home2.jpg" width="200px"> 
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home6.jpg" width="200px"> 
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home3.jpg" width="200px"> 
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home4.jpg" width="200px"> 
 
-<img src="https://github.com/sarahverkade/blokweb/blob/tree/master/images/voortgang2-home1.jpg" width="400px">
 
-![navigatie-menu](images/voortgang2-home2.jpg)
-![producten](images/voortgang2-home3.jpg)
-![nieuwsbrief](images/voortgang2-home4.jpg)
+<img src="https://github.com/sarahverkade/blokweb/blob/master/images/voortgang2-home8.jpg" width="200px"> 
+
+
+
+
+
+
 ![homepage-responsive](images/voortgang2-home5.jpg)
 ![homepage-responsive](images/voortgang2-home6.jpg)
 ![home](images/voortgang2-home7.jpg)
