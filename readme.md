@@ -73,7 +73,7 @@ Ik begin handig te worden in het gebruiken van de dev tool. Dit maakt het een st
 
 <img src="https://https://github.com/sarahverkade/blokweb/blob/main/images/voortgang2-home1.jpg" width="400px">
 
-<img src="https://github.com/sarahverkade/blokweb/tree/master/images/voortgang2-home1.jpg" width="400px">
+<img src="https://github.com/sarahverkade/blokweb/blob/tree/master/images/voortgang2-home1.jpg" width="400px">
 
 ![navigatie-menu](images/voortgang2-home2.jpg)
 ![producten](images/voortgang2-home3.jpg)
